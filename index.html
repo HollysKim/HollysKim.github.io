@@ -27,13 +27,6 @@
         font-weight: bold;
     }
 
-    a:visited {
-        text-decoration: none;
-    }
-
-    a:hover {
-        text-decoration: blue;
-    }
     .logos {
         display: inline-block;
         width: 300px;
@@ -51,6 +44,14 @@
     .motor:hover {
         transform: scale(1.1);
         opacity: 75%;
+    }
+
+    .sitelink:hover {
+        text-decoration: rgb(0, 0, 255);
+    }
+
+    .sitelink:visited {
+        text-decoration: black;
     }
 
     #images {
@@ -74,7 +75,7 @@
 <h1>NYC Motor Vehicle Collisions</h1>
 <h2>Hollys Kim</h2>
 <header>
-    <a href="https://hollyskim.github.io" target="_blank">Website Link</a>
+    <a class="sitelink" href="https://hollyskim.github.io" target="_blank">Website Link</a>
 </header>
 <div id="images" class="flexing">
     <a href="https://data.cityofnewyork.us/Transportation/Vision-Zero-Base-Report/ph7v-u5f3" target="_blank">
