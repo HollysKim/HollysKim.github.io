@@ -19,7 +19,11 @@
         margin-right: auto;
     }
 
-    .hovering:hover img {
+    #zero:hover img {
+        transform: scale(1.5);
+    }
+
+    #motor:hover img {
         transform: scale(1.5);
     }
 
@@ -36,11 +40,11 @@
 <header>
     <a href="https://hollyskim.github.io">Website Link</a>
 </header>
-<div id="images" class="hovering">
+<div id="images">
     <a href="https://data.cityofnewyork.us/Transportation/Vision-Zero-Base-Report/ph7v-u5f3">
-        <img class="logos" src="https://nypost.com/wp-content/uploads/sites/2/2019/12/191223-nyc-car-fatalities.jpg?quality=80&strip=all">
+        <img class="logos" id="zero" src="https://nypost.com/wp-content/uploads/sites/2/2019/12/191223-nyc-car-fatalities.jpg?quality=80&strip=all">
     </a>
     <a href="https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95">
-        <img class="logos" src="https://streets.mn/wp-content/uploads/2017/08/Vision-Zero.gif">
+        <img class="logos" id="motor" src="https://streets.mn/wp-content/uploads/2017/08/Vision-Zero.gif">
     </a>
 </div>
